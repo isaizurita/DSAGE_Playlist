@@ -1,12 +1,14 @@
 package com.example.soundSphere.controller;
 
+import com.example.soundSphere.service.PlaylistService;  // Para PlaylistService
+import com.example.soundSphere.model.Playlist;  // O com.example.soundSphere.entity.Playlist dependiendo de la ubicación de la clase Playlist
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.List;
 
 @Controller
