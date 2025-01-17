@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playlists</title>
+</head>
+<body>
+<h1>Playlists</h1>
+<ul>
+    <li th:each="playlist : ${playlists}">
+        <p th:text="${playlist.nombre}">Playlist Name</p>
+    </li>
+</ul>
+<a href="/playlists/add">Add Playlist</a>
+</body>
+</html>
