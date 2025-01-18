@@ -1,7 +1,7 @@
 package com.example.soundSphere.controller;
 
-import com.example.soundSphere.service.PlaylistService;  // Para PlaylistService
-import com.example.soundSphere.model.Playlist;  // O com.example.soundSphere.entity.Playlist dependiendo de la ubicación de la clase Playlist
+import com.example.soundSphere.service.PlaylistService;  
+import com.example.soundSphere.model.Playlist;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
